@@ -1,11 +1,10 @@
 apiVersion: example.org/v1alpha1
 kind: LandingZone
 metadata:
-  name: landingzone
+  name: massi
   namespace: orchestration
 spec:
   cluster:
     development: minikube
     staging:
     production:
-  namespace: massi
